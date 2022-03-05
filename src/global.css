@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --BLACK: #1d1d1d;
+    --GRAY: #2e2e2e;
+    --GRAY2:rgb(66, 66, 66);
+    --OFF-WHITE: #eeeeee;
+    --OFF-WHITE2:rgb(200, 199, 199);
+    --BLUE: rgba(0, 119, 182, 0.5);
+    --RED: #ff2145;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+    background-color: var(--BLACK);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card {
+  margin-top: 25vh;
+  background-color: var(--GRAY);
+  width: 350px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 10px #141414;
+}
+
+
+.name p {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--OFF-WHITE);
+  text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1.5px 1.5px 0px var(--BLUE), -1.5px -1.5px 0px var(--RED);
+}
+
+.socials {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  color: var(--OFF-WHITE2);
+  font-size: 25px;
+  font-weight: 100;
+  margin-left: 15px;
+  background-color: var(--BLACK);
+  padding: 7px;
+  border-radius: 50%;
+  transition: background-color 0.2s linear;
+}
+.firstlink {
+  margin-left: 0px;
+}
+.linka:hover i {
+  background-color: var(--GRAY2);
+}
+
+.discord {
+ background-color: var(--BLACK);
+ padding: 10px;
+ border-radius: 20px;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ transition: background-color 0.2s linear;
+}
+
+.discord:hover {
+  background-color: var(--GRAY2);
+}
+.discordlink {
+  margin-top: 10px;
+}
+
+.discord-link {
+  color: var(--OFF-WHITE);
+  font-size: 25px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+span {
+  color: var(--OFF-WHITE2);
+  font-family: 'Poppins', sans-serif;
+}
